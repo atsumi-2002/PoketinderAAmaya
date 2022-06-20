@@ -13,9 +13,8 @@ class AppState: ObservableObject {
     
     enum AppScreens: String {
         case launch
-        case home
-        case profile
-        case options
+        case main
+        case signIn
     }
     
     @Published var currentScreen: AppScreens = .launch

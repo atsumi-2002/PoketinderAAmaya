@@ -10,6 +10,8 @@ import SwiftUI
 @main
 struct MyApp_iOS: App {
     
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     @StateObject var appState: AppState = AppState.shared
     
     var body: some Scene {
@@ -18,13 +20,12 @@ struct MyApp_iOS: App {
             case .launch:
                 LaunchView()
                     .environmentObject(appState)
-            case .home:
-                ContentView()
+            case .main:
+                MainView()
                     .environmentObject(appState)
-            case .options:
-                ContentView()
-            case .profile:
-                ContentView()
+            case .signIn:
+                SignInView()
+                    .environmentObject(appState)
             }
         }
     }
