@@ -20,6 +20,7 @@
 		6BA0E32A2861155100F3844C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 6BA0E3292861155100F3844C /* FirebaseStorage */; };
 		6BA0E32C286121EE00F3844C /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA0E32B286121EE00F3844C /* AuthViewModel.swift */; };
 		6BA0E32E2861220900F3844C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA0E32D2861220900F3844C /* AppDelegate.swift */; };
+		6BA0E330286745D100F3844C /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA0E32F286745D100F3844C /* Pokemon.swift */; };
 		6BE8A6C42858055500D942D4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE8A6C32858055500D942D4 /* CardView.swift */; };
 		6BE8A6C62858063800D942D4 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE8A6C52858063800D942D4 /* LaunchViewModel.swift */; };
 		86619755284D87C1006E7326 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86619754284D87C1006E7326 /* ContentView.swift */; };
@@ -43,6 +44,7 @@
 		6BA0E3202861137900F3844C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6BA0E32B286121EE00F3844C /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		6BA0E32D2861220900F3844C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BA0E32F286745D100F3844C /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		6BE8A6C32858055500D942D4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		6BE8A6C52858063800D942D4 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
 		8661974F284D87C1006E7326 /* PokeTinderAAmaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeTinderAAmaya.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				6BA0E31C285E12EE00F3844C /* SignUpView.swift */,
+				86619767284D8929006E7326 /* Model.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -158,7 +161,7 @@
 		86619760284D8833006E7326 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				86619767284D8929006E7326 /* Model.swift */,
+				6BA0E32F286745D100F3844C /* Pokemon.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				6BE8A6C42858055500D942D4 /* CardView.swift in Sources */,
 				86619766284D88DE006E7326 /* AppState.swift in Sources */,
 				86619772284D8F10006E7326 /* LaunchView.swift in Sources */,
+				6BA0E330286745D100F3844C /* Pokemon.swift in Sources */,
 				6BA0E315285E0DB200F3844C /* MainView.swift in Sources */,
 				6BA0E317285E0DD400F3844C /* ChatView.swift in Sources */,
 				6BA0E32C286121EE00F3844C /* AuthViewModel.swift in Sources */,
